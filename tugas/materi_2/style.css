@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 18px 15px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+}
+
+header .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #6f00ffff;
+}
+
+#menu {
+    padding: 40px 0;
+    background-color: #ffffffff;
+    box-shadow: 0 12px 8px rgba(54, 54, 54, 0.1);
+}
+
+#menu .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+#menu h1 {
+    font-size: 28px;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#menu h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#menu p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; /* Jarak antara teks dan gambar */
+}
+
+.text-content {
+    flex: 1;
+}
+
+.image-content {
+    flex: 1;
+    text-align: right;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.button {
+    background-color: #414141ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #6f00ffff;
+}
+
+#about-me {
+    padding: 40px 0;
+    background-color: #ffffffff;
+    box-shadow: 0 -15px 10px rgba(54, 54, 54, 0.31);
+}
+
+#about-me .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+#about-me h1 {
+    font-size: 48px;
+    color: #414141ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about-me p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    color: #414141ff;
+}
+
+#about-me .about-content {
+    text-align: center;
+}
+
+#about-me .table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#about-me .info_box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 200px;
+}
+
+#about-me .label {
+    font-weight: bold;
+    color: #414141ff;
+}
+
+#portofolio {
+    padding: 40px 0;
+    background-color: #ffffffff;
+}
+
+#portofolio .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+#portofolio .about-content {
+    text-align: center;
+}
+
+#portofolio h1 {
+    font-size: 48px;
+    color: #414141ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portofolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.portofolio-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.portofolio-box img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#Contact {
+    padding: 40px 0;
+    background-color: #ffffffff;
+}
+
+#Contact .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+#Contact .about-content {
+    text-align: center;
+}
+
+#Contact h1 {
+    font-size: 48px;
+    color: #414141ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#Contact .table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#Contact .info_box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 200px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    box-shadow: 0 -18px 15px rgba(0, 0, 0, 0.3);
+}
